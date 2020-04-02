@@ -2,13 +2,10 @@ Sequence prediction using encoder-decoder model
 
 Functions:
     load_files- Loads the training and test files and coverts into feature 
-    and target dataframe.
-    
+    and target dataframe.    
     Bidirectional_LSTM-The function returns a bidirectional LSTM model with a Bi-LSTM layer 
     for each of the four inputs and one extra Bi-LSTM layer for sentences.
-    
     Embed- Converts words into embeding matix
-    
     vectorize_line-Converts words to index
 
 Algorithm:
